@@ -1,0 +1,13 @@
+$bgc: yellowgreen;
+$bgcS: red;
+.father{
+    $wid: 200px;
+    width: $wid;
+    height: 200px;
+    background-color: $bgc;
+    .son{
+        width: $wid;
+        height: 170px;
+        background-color: $bgcS;
+    }
+}
